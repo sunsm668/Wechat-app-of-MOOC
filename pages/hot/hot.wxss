@@ -1,0 +1,89 @@
+.tabs{
+  display: flex;
+  padding :0 120rpx;
+  height: 88rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.10);
+}
+.tab{
+  flex:1;
+  position: relative;
+  text-align: center;
+  line-height: 72rpx;
+  font-size: 36rpx;
+  color: #71777D;
+}
+.tab-active{
+  color: #2B333B;
+}
+.active-bar{
+  position: absolute;
+  top: 66rpx;
+  left: 110rpx;
+  width: 36rpx;
+  height: 4rpx;
+  border-radius: 4rpx;
+  background-color: #F01414;
+}
+.time{
+  display: flex;
+  margin:40rpx auto;
+  width: 240rpx;
+  height: 64rpx;
+  border: 2rpx solid #71777D;
+  border-radius: 8rpx;
+}
+.period{
+  width: 114rpx;
+  height: 52rpx;
+  border-radius: 6rpx;
+  font-size: 28rpx;
+  line-height: 52rpx;
+  margin: 7rpx;
+  text-align: center;
+}
+.item-active{
+  color: #ffffff;
+  background-color:#71777D;
+}
+.item{
+  display: flex;
+  margin: 24rpx 48rpx 20rpx;
+}
+.item-image{
+  width: 180rpx;
+  height: 120rpx;
+  border-radius: 8rpx;
+}
+.item-title{
+  flex: 1;
+  display: table;
+  margin-left: 24rpx;
+  height: 120rpx;
+}
+.item-title-inner{
+  display: table-cell;
+  font-size: 28rpx;
+  color: #2B333B;
+  line-height: 40rpx;
+  vertical-align: middle;
+  word-break: break-all;
+  padding-right: 48rpx;
+  width: 342rpx;
+}
+.item-number{
+  width: 60rpx;
+}
+.item-number-img{
+  display: block;
+  width: 60rpx;
+  height: 52rpx;
+  margin-right: 48rpx;
+  margin-top: 30rpx;
+}
+.item-number-common{
+  margin-right: 48rpx;
+  margin-top: 30rpx;
+  font-size: 36rpx;
+  color: #71777D;
+  margin-left: 16rpx;
+}
